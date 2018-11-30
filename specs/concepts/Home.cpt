@@ -1,0 +1,8 @@
+# Open Home Page
+* I navigate to home page
+
+# Click *Sign in* header button
+* I click the element with "class"="login"
+
+# Click *Women* button
+* I click the element with "xpath"="//a[@title='Women']"

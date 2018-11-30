@@ -1,0 +1,7 @@
+
+# Click the product with name *Faded Short Sleeve T-shirts*
+* I click the element with "xpath"="//a[@title='Faded Short Sleeve T-shirts']/ancestor::li"
+* I click the element with "xpath"="//a[@title='Faded Short Sleeve T-shirts']/ancestor::li"
+
+# Click *Add to card* button
+* I click the element with "name"="Submit"

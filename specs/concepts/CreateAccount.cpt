@@ -1,0 +1,26 @@
+# Fill all fields with correct data
+* I send the random "firstName" to element with "ID"="customer_firstname"
+* I send the random "lastName" to element with "id"="customer_lastname"
+* I send the random "password" to element with "id"="passwd"
+* I send the random "dayOfBirth" to element with "id"="days"
+* I send the random "monthOfBirth" to element with "id"="months"
+* I send the random "yearOfBirth" to element with "id"="years"
+* I send the random "company" to element with "id"="company"
+* I send the random "address" to element with "id"="address1"
+* I send the random "city" to element with "id"="city"
+* I send the random "state" to element with "id"="id_state"
+* I send the random "zipCode" to element with "id"="postcode"
+* I send the random "phoneNumber" to element with "id"="phone"
+
+# Click *Register* button
+* I click the element with "id"="submitAccount"
+
+# Existing customer
+* Generate customer data
+* Open Home Page
+* Click *Sign in* header button
+* Fill *Email address* to create an account
+* Click *Create an account* button
+* Fill all fields with correct data
+* Click *Register* button
+* Click *Log out* button

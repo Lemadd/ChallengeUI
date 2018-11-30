@@ -1,0 +1,31 @@
+# Click *Proceed to checkout* 1
+* I click the element with "xpath"="//*[@id='layer_cart']//a[@class and @title='Proceed to checkout']"
+
+# Click *Proceed to checkout* 2
+* I click the element with "xpath"="//*[contains(@class,'cart_navigation')]/a[@title='Proceed to checkout']"
+
+# Click *Proceed to checkout* 3
+* I click the element with "name"="processAddress"
+
+# Click *Proceed to checkout* 4
+* I click the element with "name"="processCarrier"
+
+# Click by *Terms of service* to agree
+* I click the element with "id"="uniform-cgv"
+
+# Click by payment method *Pay by bank wire*
+* I click the element with "class"="bankwire"
+
+# Click *I confirm my order*
+* I click the element with "xpath"="//*[@id='cart_navigation']/button"
+
+# Current page is the last step of ordering
+* I validate the element is displayed with "xpath"="//li[@class='step_done step_done_last four']"
+* I validate the element is displayed with "xpath"="//li[@id='step_end' and @class='step_current last']"
+* I validate the "Your order on My Store is complete." is displayed with "xpath"="//*[@class='cheque-indent']/strong"
+
+# Order confirmation page(?controller=order-confirmation) is opened
+* I validate the "controller=order-confirmation" is opened
+
+# The order is complete.
+* I validate the "ORDER CONFIRMATION" is displayed with "css"="h1"

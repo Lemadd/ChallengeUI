@@ -1,0 +1,19 @@
+# Log in as existing customer
+* I send the random "email" to element with "id"="email"
+* I send the random "password" to element with "id"="passwd"
+* I click the element with "id"="SubmitLogin"
+
+# Fill *Email address* to create an account
+* I send the random "email" to element with "id"="email_create"
+
+# Click *Create an account* button
+* I click the element with "id"="SubmitCreate"
+
+# Fill *Email address* to sign in
+* I send the random "email" to element with "id"="email"
+
+# Fill *Password* to sign in
+* I send the random "password" to element with "id"="passwd"
+
+# Click *Sign in* button
+* I click the element with "id"="SubmitLogin"

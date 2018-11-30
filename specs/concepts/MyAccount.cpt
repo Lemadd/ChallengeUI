@@ -1,0 +1,13 @@
+
+# Proper userName is shown in the header
+* I validate the userName is displayed in the header with "class"="account"
+
+# Log out action is available
+* I validate the element is displayed with "class"="logout"
+
+# My account page(?controller=my-account) is opened
+* I validate the "controller=my-account" is opened
+
+# Click *Log out* button
+* I click the element with "class"="logout"
+
